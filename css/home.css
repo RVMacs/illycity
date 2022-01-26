@@ -1,0 +1,172 @@
+body {
+    font-family: 'helvetica', 'sans-serif';
+    margin: 0;
+}
+
+/* start: general style rules */
+h1, h2, h3, h4, h5 {
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+/* start: header styles */
+header {
+    background-color: #131313;
+    padding: 15px 0;
+    position: relative;
+    border-bottom: 1px solid #00bfff;
+}
+
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid #00008B;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: #40ABF5;
+    margin: 4px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #eee;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #007BDC;
+}
+
+#login-register-button {
+    background-color: #007BDC;
+    color: #131313;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+/* start: home styles */
+#home-image {
+    background: url('../image/background\ 1.jpg') top center no-repeat;
+    height: 650px;
+}
+
+.home-marketing-text {
+    max-width: 1200px;
+    margin: -30px auto 0;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+}
+
+.home-marketing-text h1 {
+    color: black;
+    font-size: 2.5em;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+
+.home-marketing-text span {
+    color: 	white;
+}
+
+.home-marketing-text h5 {
+    color: black;
+    font-size: 0.85em;
+    font-weight: 300;
+    max-width: 500px;
+    line-height: 2;
+    margin-bottom: 2.5em;
+}
+
+.home-marketing-text button {
+    background-color: #007BDC;
+    color: #131313;
+    border-radius: 25px;
+    padding: 15px 25px;
+    font-size: 0.85em;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+/* start: footer styles */
+footer {
+    margin-top: -2.3%;
+    background-color: #252525;
+    padding: 25px 0 25px;
+}
+
+footer small {
+    color: #ddd;
+    font-size: 0.9em;
+}
+
+footer small .footer-heart {
+    font-size: 16px;
+}
+
+footer small a {
+    color: #007BDC;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+footer ul li a {
+    color: #ddd;
+    font-size: 0.8em;
+}
+
+
+
+
+

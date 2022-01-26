@@ -1,0 +1,217 @@
+body {
+    font-family: 'helvetica', 'sans-serif';
+    margin: 0;
+}
+
+/* start: global style rules */
+h1, h2, h3, h4, h5 {
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, label, strong {
+    line-height: 2;
+    font-size: 1.0em;
+    font-weight: 300;
+}
+
+.flex {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+.product {
+    padding: 9px 20px;
+    color: #eee;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.product.number1 {
+    background-color: #FB6E10;
+}
+
+.product.number2 {
+    background-color: #FB6E10;
+}
+
+.product.number3 {
+    background-color: #FB6E10;
+}
+
+
+.shade {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* start: header styles */
+header {
+    background-color: #131313;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #00bfff;
+}
+
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid #00008B;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: #40ABF5;
+    margin: 4px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #eee;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #007BDC;
+}
+
+#login-register-button {
+    background-color: #007BDC;
+    color: #131313;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+/* start: Product games styles */
+#Product {
+    background: url('../image/background\ product.png') top center no-repeat;
+    background-color: #eef2f6;
+    border-top: 1px solid #d6dee7;
+    border-bottom: 1px solid #d6dee7;
+    padding: 1px 0 85px;
+}
+
+#Product h1 {
+    text-align: center;
+}
+
+#Product h4 {
+    text-align: left;
+    margin-top: -6%;
+    margin-left: -3%;
+}
+
+#Product p {
+    text-align: left;
+    margin-top: -4%;
+    margin-left: -2%;
+}
+
+
+#Product .flex {
+    margin-top: 10%;
+}
+
+#Product .box {
+    position: relative;
+    flex-basis: 30%;
+    background-color: #fff;
+}
+
+#Product .box .product {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    z-index: 2;
+}
+
+#Product .box img {
+    width: 100%;
+}
+
+#Product .box .box-lower-section {
+    padding: 20px;
+}
+
+#Product .box .box-lower-section p {
+    color: #FB6E10;
+}
+
+#Product .box .box-lower-section a {
+    color: gray;
+    font-size: 0.8em;
+}
+
+/* start: footer styles */
+footer {
+    margin-top: -3%;
+    background-color: #252525;
+    padding: 25px 0 20px;
+}
+
+footer small {
+    color: #ddd;
+    font-size: 0.9em;
+}
+
+footer small .footer-heart {
+    font-size: 16px;
+}
+
+footer small a {
+    color: #007BDC;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+footer ul li a {
+    color: #ddd;
+    font-size: 0.8em;
+}
+
+
